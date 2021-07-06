@@ -12,8 +12,13 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.spark.sql.types.StructType;
 
-public class App {
+//import weka.clusterers.ClusterEvaluation;
+//import weka.clusterers.SimpleKMeans;
+//import weka.core.Instances;
+//import weka.core.converters.ConverterUtils.DataSource;
 
+public class App {
+	// **********  We Used(( Java 8 / JDK11 / Tomcat 8.5 ))  ****************
 	private Client client;
 	private String REST_SERVICE_URL = "http://localhost:8080/wuzzufJobs/rest/JobService";
 	
