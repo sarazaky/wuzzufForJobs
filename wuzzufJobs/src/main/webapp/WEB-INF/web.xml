@@ -4,7 +4,7 @@
 
 <web-app>
    
-  <display-name>wuzzufJobs_C</display-name>
+  <display-name>wuzzufJobs</display-name>
   <servlet> 
       <servlet-name>jersey-serlvet</servlet-name>
       <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class> 
