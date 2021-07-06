@@ -19,6 +19,8 @@ import org.apache.spark.sql.types.StructType;
 
 public class App {
 	// **********  We Used(( Java 8 / JDK11 / Tomcat 8.5 ))  ****************
+	// afrer adding weka dependancy for kmeans, war file became to large and we couldn't upload the project,
+	// so we left the dependancy as comment in pom.xml file
 	private Client client;
 	private String REST_SERVICE_URL = "http://localhost:8080/wuzzufJobs/rest/JobService";
 	
